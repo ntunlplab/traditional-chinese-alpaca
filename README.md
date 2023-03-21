@@ -18,5 +18,5 @@ Ongoing, to be added soon.
 *Please feel free to reach out if you are interested in any forms of collaborations!*
 
 ## Reference
-A large portion of our work relies on/motivaed by [LLaMA](https://arxiv.org/abs/2302.13971), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca), [Alpaca-LoRA](https://github.com/tloen/alpaca-lora), [ChatGPT](https://openai.com/blog/chatgpt), [Hugging Face](https://huggingface.co/), and [Cabrita](https://github.com/22-hours/cabrita).
+A large portion of our work relies on/motivated by [LLaMA](https://arxiv.org/abs/2302.13971), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca), [Alpaca-LoRA](https://github.com/tloen/alpaca-lora), [ChatGPT](https://openai.com/blog/chatgpt), [Hugging Face](https://huggingface.co/), and [Cabrita](https://github.com/22-hours/cabrita).
 We thanks the incredible individuals, groups, and communities for opening their amazing works!
