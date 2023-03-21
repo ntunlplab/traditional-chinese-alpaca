@@ -1,6 +1,6 @@
 # Traditional-Chinese Alpaca Dataset
 
-This repo aims to share resources for building Traditional-Chinese instruction-following language models for research purposes only. This repo contains:
+This repo aims to share resources for building Traditional-Chinese instruction-following language models (for research purposes only). This repo contains:
   - A Traditional-Chinese version of the Alpaca dataset -> [```alpaca_data-tw.json```](alpaca_data-tw.json)
   - Code for training/inference a Traditional-Chinese Alpaca-Lora LLaMA model. (to be added soon)
   
