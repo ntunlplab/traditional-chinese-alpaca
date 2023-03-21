@@ -2,7 +2,7 @@
 
 This repo aims to share resources for building Traditional-Chinese instruction-following language models (for research purposes only). This repo contains:
   - A Traditional-Chinese version of the Alpaca dataset -> [```alpaca_data-tw.json```](alpaca_data-tw.json)
-  - Code for training/inference a Traditional-Chinese Alpaca-Lora LLaMA model. (to be added soon)
+  - Code for training and inferencing a Traditional-Chinese Alpaca-Lora LLaMA model. (to be added soon)
   
 ## About the dataset
 We translate the [Stanford Alpaca 52k dataset](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json) directly to Traditional Chinese via the [ChatGPT API](https://platform.openai.com/docs/guides/chat) (```gpt-3.5-turbo```), which cost us roughly 40 USD.
