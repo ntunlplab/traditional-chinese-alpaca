@@ -8,9 +8,9 @@ This repo aims to share resources for building Traditional-Chinese instruction-f
 We translate the [Stanford Alpaca 52k dataset](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json) directly to Traditional Chinese via the [ChatGPT API](https://platform.openai.com/docs/guides/chat) (```gpt-3.5-turbo```), which cost us roughly 40 USD.
 
 Specifically, this repo includes three set of datasets:
-1.  A Traditional-Chinese version of the Alpaca dataset. --> [```alpaca_data-tw.json```](alpaca_data-tw.json)
-2.  A dataste same as 1. except the *instruction part* is leaved as English. --> [```alpaca-tw_en_instruction.json```](alpaca-tw_en_instruction.json)
-3.  A dataset combining 1. and 2. --> [```alpaca-tw_en-align.json```](alpaca-tw_en-align.json)
+1.  A Traditional-Chinese version of the Alpaca dataset. --> [```alpaca-tw.json```](data/alpaca-tw.json)
+2.  A dataste same as 1. except the *instruction part* is leaved as English. --> [```alpaca-tw_en_instruction.json```](data/alpaca-tw_en_instruction.json)
+3.  A dataset combining 1. and 2. --> [```alpaca-tw_en-align.json```](data/alpaca-tw_en-align.json)
 
 In our preliminary experiments, fine-tuned only with dataset 1. does not yield ideal results.
 As LLaMA is trained primarily on English corpus, its ability to understanding other languages may require further alignments.
@@ -18,12 +18,12 @@ To this end, we create dataste 3., where beside the instruction-following task, 
 > We hypothesis the succuess of [Cabrita](https://github.com/22-hours/cabrita) (i.e., the portuguese version) can be attributed to the shared subword vocabulary with English.
 
 ## Training
-The code for training the Traditional-Chinese Alpaca is avaiblable [here](finetune.py).
+The code for training the Traditional-Chinese Alpaca is avaiblable [here](code/finetune.py).
 It is based largely on [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) and [Cabrita](https://github.com/22-hours/cabrita).
 Our training is done on a single RTX 3090.
 
 ## Inference
-The code for inferencing the trained model is avaiblable [here](inference.py).
+The code for inferencing the trained model is avaiblable [here](code/inference.py).
 
 ## Next
 1. Fine-tune various multi-lingual foundation models (e.g., [bloomz-7b1](https://huggingface.co/bigscience/bloomz-7b1)).
