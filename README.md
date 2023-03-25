@@ -1,4 +1,4 @@
-# Traditional-Chinese Alpaca Dataset
+# Traditional-Chinese Alpaca
 
 This repo aims to share resources for building Traditional-Chinese instruction-following language models (for research purposes only). This repo contains:
   - A Traditional-Chinese version of the Alpaca dataset with English alignment. See [Dataset](#dataset) for details. Our *very simple* alignment technique could work for other languages as well.
