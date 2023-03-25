@@ -52,7 +52,7 @@ If you use the data or code from this repo, please cite this repo as follows
 ```
 @misc{traditional-chinese-alpaca,
   author = {Wei-Lin Chen and Cheng-Kuang Wu and Hsin-Hsi Chen},
-  title = {A Traditional Chinese Version of the Alpaca Dataset for Instruction-Finetuning},
+  title = {Traditional-Chinese Alpaca: Models and Datasets},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
