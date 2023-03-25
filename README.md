@@ -23,7 +23,7 @@ It is based largely on [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) and [
 Our training is done on a single RTX 3090.
 
 ## Inference
-The code for inferencing and the trained model is avaiblable [here](inference.py).
+The code for inferencing the trained model is avaiblable [here](inference.py).
 
 ## Next
 1. Fine-tune various multi-lingual foundation models (e.g., [bloomz-7b1](https://huggingface.co/bigscience/bloomz-7b1)).
