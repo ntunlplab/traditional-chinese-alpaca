@@ -26,7 +26,7 @@ Specifically, this repo includes three sets of datasets:
 In our preliminary experiments, fine-tunning with only the Trditional-Chinese dataset (i.e., dataset 1.) does not yield ideal results.
 As LLaMA is trained primarily on English corpus, its ability to understanding other languages may require further alignments.
 To this end, we create a Traditional-Chinese version of the Alpaca dataset with English alignment (i.e., dataste 3.), where beside the instruction-following task, the model can learn Chinese-English translation implicitly. (The examples above are produced by training with this aligned dataset.)
-> We hypothesize for some languages (e.g., portuguese) which share subword vocabulary with English, simply fine-tuning with the translated alpaca dataset would yield amazing performance.
+> We hypothesize for some languages (e.g., spanish, portuguese) which share subword vocabulary with English, simply fine-tuning with the translated alpaca dataset would give great performance.
 
 ## Training <a name="training"></a>
 The code for training the Traditional-Chinese Alpaca-Lora LLaMA is avaiblable [here](code/finetune.py).
