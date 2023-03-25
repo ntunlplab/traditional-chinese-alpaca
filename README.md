@@ -23,9 +23,10 @@ Specifically, this repo includes three sets of datasets:
 2.  A dataste same as 1. except the *instruction part* is left as English. --> [```alpaca-tw_en_instruction.json```](data/alpaca-tw_en_instruction.json)
 3.  An aligned dataset, which simply combinines 1. and 2. --> [```alpaca-tw_en-align.json```](data/alpaca-tw_en-align.json)
 
-In our preliminary experiments, fine-tunning with only the Trditional-Chinese dataset (i.e., dataset 1.) does not yield ideal results.
+In our preliminary experiments, fine-tuning with only the Trditional-Chinese dataset (i.e., dataset 1.) does not yield ideal results (e.g., degeneration, poor understanding).
 As LLaMA is trained primarily on English corpus, its ability to understanding other languages may require further alignments.
-To this end, we create a Traditional-Chinese version of the Alpaca dataset with English alignment (i.e., dataste 3.), where beside the instruction-following task, the model can learn Chinese-English translation implicitly. (The examples above are produced by training with this aligned dataset.)
+
+To this end, we create a Traditional-Chinese version of the Alpaca dataset with English alignment (i.e., dataste 3.), where beside the instruction-following task, the model can learn Chinese-English translation implicitly. The examples above are produced by training with this aligned dataset.
 > We hypothesize for some languages (e.g., spanish, portuguese) which share subword vocabulary with English, simply fine-tuning with the translated alpaca dataset would give great performance.
 
 ## Training <a name="training"></a>
